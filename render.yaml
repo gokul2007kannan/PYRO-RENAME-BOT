@@ -9,21 +9,21 @@ services:
     branch: main
     envVars:
       - key: BOT_TOKEN 
-        sync: 6132728857:AAHX16VnWQl1fqto91_7M4H8eQ6IxCkI9cs
+        sync: true
       - key: API_ID 
-        sync: 20244111
+        sync: true
       - key: API_HASH
-        sync: b76d27da2a4220fe109fe9ef0e866530
+        sync: true
       - key: WEBHOOK
         synv: false 
       - key: FORCE_SUB 
-        sync: https://t.me/xadmin_bots
+        sync: false
       - key: DB_NAME 
-        sync: musicdb
+        sync: true
       - key: DB_URL 
-        sync: mongodb+srv://kfakeid9:Jobijobi1@musicdb.urlvere.mongodb.net/?retryWrites=true&w=majority 
+        sync: true 
       - key: START_PIC 
-        sync: https://telegra.ph/file/aa1faf8dafa22f4a9ce48.jpg
+        sync: true
       - key: ADMIN 
         sync: false    
     autoDeploy: false 

@@ -21,11 +21,14 @@ services:
         synv: false 
       - key: FORCE_SUB 
         sync: false
-      - key: DB_NAME 
+      - key: DB_NAME
+        value: musicdb
         sync: true
       - key: DB_URL 
+        value: mongodb+srv://kfakeid9:Jobijobi1@musicdb.urlvere.mongodb.net/?retryWrites=true&w=majority
         sync: true 
-      - key: START_PIC 
+      - key: START_PIC
+        value: https://telegra.ph/file/aa1faf8dafa22f4a9ce48.jpg
         sync: true
       - key: ADMIN 
         sync: false    

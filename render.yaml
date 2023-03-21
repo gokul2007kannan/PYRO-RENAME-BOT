@@ -8,11 +8,14 @@ services:
     repo: https://github.com/Mohanish7777777/PYRO-RENAME-BOT.git      
     branch: main
     envVars:
-      - key: BOT_TOKEN 
+      - key: BOT_TOKEN
+        value: 6132728857:AAHX16VnWQl1fqto91_7M4H8eQ6IxCkI9cs
         sync: true
       - key: API_ID 
+        value: 20244111
         sync: true
       - key: API_HASH
+        value: b76d27da2a4220fe109fe9ef0e866530
         sync: true
       - key: WEBHOOK
         synv: false 

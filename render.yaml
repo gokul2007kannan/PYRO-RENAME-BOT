@@ -5,25 +5,25 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT.git      
+    repo: https://github.com/Mohanish7777777/PYRO-RENAME-BOT.git      
     branch: main
     envVars:
       - key: BOT_TOKEN 
-        sync: false
+        sync: 6132728857:AAHX16VnWQl1fqto91_7M4H8eQ6IxCkI9cs
       - key: API_ID 
-        sync: false
+        sync: 20244111
       - key: API_HASH
-        sync: false
+        sync: b76d27da2a4220fe109fe9ef0e866530
       - key: WEBHOOK
         synv: false 
       - key: FORCE_SUB 
-        sync: false
+        sync: https://t.me/xadmin_bots
       - key: DB_NAME 
-        sync: false
+        sync: musicdb
       - key: DB_URL 
-        sync: false 
+        sync: mongodb+srv://kfakeid9:Jobijobi1@musicdb.urlvere.mongodb.net/?retryWrites=true&w=majority 
       - key: START_PIC 
-        sync: false
+        sync: https://telegra.ph/file/aa1faf8dafa22f4a9ce48.jpg
       - key: ADMIN 
         sync: false    
     autoDeploy: false 
